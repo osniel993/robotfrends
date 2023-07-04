@@ -4,7 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
-.idea/*
+
+####> IDEA FILES ####
+./idea/*
+/.idea/*
+###< IDEA FILES ####
 
 # testing
 /coverage
