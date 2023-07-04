@@ -1,0 +1,16 @@
+version: '3'
+services:
+  node:
+    container_name: 'node'
+    build:
+      context: ./Docker/node
+    environment:
+      - NODE_ENV=development
+    ports:
+      - 3000:3000
+    stdin_open: true
+    tty: true
+    working_dir: /robot-friends-app
+    volumes:
+      - .:/robot-friends-app
+#    command: npm start
