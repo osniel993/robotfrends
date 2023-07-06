@@ -13,4 +13,3 @@ services:
     working_dir: /robot-friends-app
     volumes:
       - .:/robot-friends-app
-#    command: npm start
